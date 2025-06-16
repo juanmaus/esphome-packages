@@ -22,7 +22,7 @@ climate:
     name: None
     protocol: hon
     wifi_signal: true
-    beeper: true
+    #beeper: true
     display: true
     visual:
       min_temperature: 16
@@ -40,7 +40,7 @@ climate:
     supported_presets:
       - AWAY
       - BOOST
-      - ECO
+      #- ECO
       - SLEEP
     on_alarm_start:
       then:
